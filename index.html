@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111311">
+  <meta name="description" content="Профессиональный автодетейлинг: детейлинг-мойка, полировка кузова, керамика, химчистка салона и защита автомобиля. Запись онлайн.">
+  <title>NOIR DETAILING — Профессиональный уход за автомобилем</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#111311;--panel:#191d19;--panel2:#202520;--text:#f3f4ef;--muted:#a0a79d;--line:rgba(255,255,255,.1);--accent:#c7f36b;--accent-dark:#9ec64e;--radius:22px;--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Manrope,Arial,sans-serif;line-height:1.55}body.lock{overflow:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.container{width:min(var(--max),calc(100% - 40px));margin:auto}.muted{color:var(--muted)}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before{content:"";width:24px;height:1px;background:var(--accent)}.section{padding:105px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:42px}.section-head h2{font-size:clamp(32px,5vw,54px);line-height:1.05;letter-spacing:-.055em;margin:14px 0 0;max-width:650px}.section-head p{max-width:370px;color:var(--muted);margin:0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid transparent;border-radius:999px;padding:14px 22px;font-size:13px;font-weight:800;transition:.25s}.btn-primary{background:var(--accent);color:#11170a}.btn-primary:hover{background:#d8ff85;transform:translateY(-2px)}.btn-ghost{border-color:var(--line);color:var(--text);background:transparent}.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}.arrow{font-size:17px;line-height:0}
+    header{height:82px;position:fixed;inset:0 0 auto;z-index:50;background:rgba(17,19,17,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:100%;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.12em;font-size:14px}.brand-mark{width:32px;height:32px;border:1px solid var(--accent);border-radius:10px;display:grid;place-items:center;color:var(--accent);font-size:15px}.brand small{display:block;font-size:8px;color:var(--muted);letter-spacing:.28em;margin-top:1px}.nav-links{display:flex;gap:28px;align-items:center}.nav-links a{font-size:12px;color:#c4c9c0;transition:.2s}.nav-links a:hover{color:var(--accent)}.nav-actions{display:flex;align-items:center;gap:18px}.nav-phone{font-size:12px;font-weight:700}.menu-btn{display:none;background:none;border:0;color:white;font-size:24px}
+    .hero{min-height:780px;padding:160px 0 85px;display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(12,14,12,.96) 0%,rgba(12,14,12,.82) 48%,rgba(12,14,12,.28) 100%),url('https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=2200&q=85') center/cover}.hero:after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,var(--bg))}.hero-content{position:relative;z-index:1;max-width:720px}.hero h1{font-size:clamp(48px,8vw,92px);line-height:.99;letter-spacing:-.075em;margin:22px 0}.hero h1 span{color:var(--accent)}.hero-copy{max-width:520px;color:#c0c5bc;font-size:15px;margin-bottom:30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-meta{display:flex;gap:35px;margin-top:58px}.meta-item strong{display:block;font-size:24px;letter-spacing:-.05em}.meta-item span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}.hero-scroll{position:absolute;z-index:2;right:30px;bottom:80px;color:#d9ddd5;font-size:10px;letter-spacing:.16em;writing-mode:vertical-rl}
+    .trust{border-block:1px solid var(--line);background:#151815}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}.trust-item{padding:25px 20px;border-right:1px solid var(--line);display:flex;align-items:center;gap:13px}.trust-item:last-child{border:0}.trust-icon{width:38px;height:38px;border:1px solid var(--line);border-radius:12px;display:grid;place-items:center;color:var(--accent);font-size:17px}.trust-item strong{display:block;font-size:12px}.trust-item span{font-size:10px;color:var(--muted)}
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.3s}.service:hover{transform:translateY(-5px);border-color:rgba(199,243,107,.4)}.service-img{height:205px;background-size:cover;background-position:center;position:relative}.service-img:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(17,19,17,.75),transparent 70%)}.service-num{position:absolute;z-index:1;left:20px;bottom:16px;color:var(--accent);font-size:11px;letter-spacing:.1em}.service-body{padding:23px}.service h3{font-size:18px;margin:0 0 8px}.service p{font-size:12px;color:var(--muted);min-height:56px;margin:0 0 20px}.service-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:17px}.price{font-weight:800;font-size:14px}.price small{font-size:10px;color:var(--muted);font-weight:500}.text-link{font-size:11px;color:var(--accent);font-weight:800}
+    .about{background:#171b17}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about-photo{min-height:530px;border-radius:var(--radius);background:url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1200&q=85') center/cover;position:relative}.photo-note{position:absolute;right:-20px;bottom:28px;background:var(--accent);color:#13170d;padding:20px 24px;border-radius:16px;max-width:190px}.photo-note strong{font-size:28px;display:block;line-height:1}.photo-note span{font-size:10px;font-weight:700}.about-copy h2{font-size:clamp(34px,5vw,55px);line-height:1.05;letter-spacing:-.06em;margin:16px 0}.about-copy>p{color:var(--muted);font-size:13px;max-width:510px}.check-list{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:30px 0}.check{font-size:12px;display:flex;gap:10px;align-items:center}.check b{color:var(--accent);font-size:16px}
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.step{padding:25px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.step-num{color:var(--accent);font-size:11px;letter-spacing:.14em}.step h3{font-size:15px;margin:28px 0 8px}.step p{font-size:11px;color:var(--muted);margin:0}
+    .calculator{background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:34px;display:grid;grid-template-columns:1fr .8fr;gap:50px}.calc-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}.field label{display:block;color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:9px}.field select,.field input,.field textarea{width:100%;background:#111511;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:14px;outline:none}.field select:focus,.field input:focus,.field textarea:focus{border-color:var(--accent)}.calc-result{background:#111511;border-radius:20px;padding:28px;display:flex;flex-direction:column;justify-content:space-between}.calc-result small{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.1em}.calc-total{font-size:42px;font-weight:800;letter-spacing:-.06em;margin:10px 0}.calc-result p{font-size:11px;color:var(--muted)}
+    .gallery-grid{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-template-rows:220px 220px;gap:12px}.gallery-item{border-radius:18px;overflow:hidden;position:relative;background-size:cover;background-position:center}.gallery-item:first-child{grid-row:span 2}.gallery-item:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.6),transparent 55%)}.gallery-label{position:absolute;z-index:1;bottom:18px;left:20px;font-size:12px;font-weight:800}
+    .reviews{background:#171b17}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.review{padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--bg)}.stars{color:var(--accent);letter-spacing:3px;font-size:12px}.review p{font-size:13px;color:#d0d4cc;min-height:92px}.reviewer{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:17px}.avatar{width:36px;height:36px;border-radius:50%;background:#2c3527;color:var(--accent);display:grid;place-items:center;font-weight:800}.reviewer strong{display:block;font-size:11px}.reviewer span{font-size:10px;color:var(--muted)}
+    .faq-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.faq-grid h2{font-size:clamp(34px,5vw,52px);line-height:1.05;letter-spacing:-.06em;margin:15px 0}.faq-item{border-bottom:1px solid var(--line)}.faq-q{width:100%;background:none;border:0;color:var(--text);padding:21px 0;text-align:left;display:flex;justify-content:space-between;gap:20px;font-size:13px;font-weight:800}.faq-q span:last-child{color:var(--accent);font-size:19px}.faq-a{display:none;color:var(--muted);font-size:12px;padding:0 35px 20px 0}.faq-item.open .faq-a{display:block}
+    .contact{background:var(--accent);color:#14190e}.contact .eyebrow{color:#3b4d20}.contact .eyebrow:before{background:#3b4d20}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.contact h2{font-size:clamp(38px,6vw,66px);line-height:1;letter-spacing:-.07em;margin:18px 0}.contact-copy{color:#3f4a30;font-size:13px;max-width:420px}.contact-info{display:flex;gap:25px;flex-wrap:wrap;margin-top:30px}.contact-info span{font-size:11px;font-weight:800}.contact-form{background:#151a12;color:var(--text);padding:30px;border-radius:22px}.contact-form h3{margin:0 0 6px;font-size:20px}.contact-form>p{font-size:11px;color:var(--muted);margin:0 0 22px}.contact-form .field{margin-bottom:13px}.contact-form .field label{color:#aab1a2}.contact-form input,.contact-form select{background:#20271d}.contact-form .btn{width:100%;margin-top:5px}.form-note{font-size:9px;color:#87907e;text-align:center;margin-top:12px}
+    footer{padding:30px 0;background:#101210}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-copy{font-size:10px;color:var(--muted)}.footer-links{display:flex;gap:20px}.footer-links a{font-size:10px;color:var(--muted)}.footer-links a:hover{color:var(--accent)}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--accent);color:#11170a;padding:13px 18px;border-radius:99px;font-size:12px;font-weight:800;z-index:100;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}.mobile-cta{display:none}
+    @media(max-width:900px){.nav-links{gap:15px}.nav-phone{display:none}.services-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:35px}.process-grid{grid-template-columns:repeat(2,1fr)}.calculator{gap:25px}.faq-grid{gap:35px}}
+    @media(max-width:680px){.container{width:min(100% - 30px,var(--max))}.section{padding:75px 0}header{height:70px}.nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:#151815;padding:22px 25px 28px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.nav-links.active{display:flex}.nav-actions .btn{display:none}.menu-btn{display:block}.hero{min-height:740px;padding:130px 0 70px;background-position:58% center}.hero h1{font-size:clamp(47px,13vw,68px)}.hero-copy{font-size:13px}.hero-meta{gap:20px;margin-top:42px}.meta-item strong{font-size:20px}.hero-scroll{display:none}.trust-grid{grid-template-columns:1fr 1fr}.trust-item{padding:18px 10px;border-bottom:1px solid var(--line)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(3),.trust-item:nth-child(4){border-bottom:0}.section-head{display:block}.section-head p{margin-top:17px}.services-grid{grid-template-columns:1fr}.service-img{height:220px}.about-grid,.contact-grid,.faq-grid{grid-template-columns:1fr}.about-photo{min-height:390px;margin-right:15px}.photo-note{right:-14px}.check-list{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr}.calculator{grid-template-columns:1fr;padding:20px}.calc-fields{grid-template-columns:1fr 1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:230px 160px 160px}.gallery-item:first-child{grid-column:span 2;grid-row:auto}.review-grid{grid-template-columns:1fr}.review p{min-height:0}.contact-grid{gap:30px}.contact-form{padding:22px}.footer-row{flex-direction:column;align-items:flex-start}.mobile-cta{display:flex;position:fixed;z-index:40;bottom:12px;left:12px;right:12px}.mobile-cta .btn{width:100%;box-shadow:0 8px 30px #0008}footer{padding-bottom:90px}}
+    @media(max-width:390px){.calc-fields{grid-template-columns:1fr}.hero-actions .btn{width:100%}.check-list{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="NOIR DETAILING — на главную"><span class="brand-mark">N</span><span>NOIR <small>DETAILING STUDIO</small></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Услуги</a><a href="#about">О студии</a><a href="#prices">Калькулятор</a><a href="#works">Работы</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="nav-actions"><a class="nav-phone" data-phone href="tel:+70000000000">+7 (000) 000-00-00</a><a class="btn btn-primary" href="#contacts">Записаться <span class="arrow">↗</span></a><button class="menu-btn" id="menuBtn" aria-label="Открыть меню">☰</button></div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container"><div class="hero-content">
+      <span class="eyebrow">Профессиональный автодетейлинг</span>
+      <h1>Чистота.<br>Блеск.<br><span>Защита.</span></h1>
+      <p class="hero-copy">Возвращаем автомобилю безупречный вид и сохраняем его надолго. Точная работа, премиальные материалы и внимание к каждой детали.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#contacts">Записаться на уход <span class="arrow">↗</span></a><a class="btn btn-ghost" href="#services">Изучить услуги</a></div>
+      <div class="hero-meta"><div class="meta-item"><strong>5+</strong><span>лет опыта</span></div><div class="meta-item"><strong>800+</strong><span>автомобилей</span></div><div class="meta-item"><strong>100%</strong><span>внимание к деталям</span></div></div>
+    </div></div><div class="hero-scroll">ЛИСТАЙТЕ ВНИЗ ↓</div>
+  </section>
+
+  <section class="trust"><div class="container trust-grid">
+    <div class="trust-item"><div class="trust-icon">✦</div><div><strong>Премиальная химия</strong><span>Проверенные составы</span></div></div>
+    <div class="trust-item"><div class="trust-icon">◇</div><div><strong>Опытные мастера</strong><span>Работаем по технологии</span></div></div>
+    <div class="trust-item"><div class="trust-icon">◷</div><div><strong>По записи</strong><span>Без очередей и спешки</span></div></div>
+    <div class="trust-item"><div class="trust-icon">✓</div><div><strong>Контроль качества</strong><span>Проверка перед выдачей</span></div></div>
+  </div></section>
+
+  <section class="section" id="services"><div class="container">
+    <div class="section-head"><div><span class="eyebrow">Что мы делаем</span><h2>Уход, который<br>видно сразу.</h2></div><p>Подбираем комплекс под состояние автомобиля и ваши задачи — от деликатной мойки до комплексной защиты кузова.</p></div>
+    <div class="services-grid">
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=900&q=80')"><span class="service-num">01 / EXTERIOR</span></div><div class="service-body"><h3>Детейлинг-мойка</h3><p>Многоэтапная очистка кузова, дисков, проёмов и труднодоступных зон.</p><div class="service-bottom"><span class="price">от 2 500 ₽</span><a class="text-link" href="#contacts" data-service="Детейлинг-мойка">Записаться ↗</a></div></div></article>
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1613214150384-3b1d3d4a6e7b?auto=format&fit=crop&w=900&q=80')"><span class="service-num">02 / POLISH</span></div><div class="service-body"><h3>Полировка кузова</h3><p>Убираем мелкие царапины и возвращаем лакокрасочному покрытию глубину блеска.</p><div class="service-bottom"><span class="price">от 12 000 ₽</span><a class="text-link" href="#contacts" data-service="Полировка кузова">Записаться ↗</a></div></div></article>
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1600705722908-bab3b3a3f3f6?auto=format&fit=crop&w=900&q=80')"><span class="service-num">03 / CERAMIC</span></div><div class="service-body"><h3>Керамическое покрытие</h3><p>Защита от внешних воздействий, гидрофобный эффект и насыщенный блеск.</p><div class="service-bottom"><span class="price">от 18 000 ₽</span><a class="text-link" href="#contacts" data-service="Керамическое покрытие">Записаться ↗</a></div></div></article>
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=900&q=80')"><span class="service-num">04 / INTERIOR</span></div><div class="service-body"><h3>Химчистка салона</h3><p>Глубокая очистка ткани, кожи, пластика и ковров с безопасной сушкой.</p><div class="service-bottom"><span class="price">от 7 000 ₽</span><a class="text-link" href="#contacts" data-service="Химчистка салона">Записаться ↗</a></div></div></article>
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80')"><span class="service-num">05 / PPF</span></div><div class="service-body"><h3>Защитная плёнка</h3><p>Оклейка уязвимых зон или кузова для защиты от сколов и дорожного песка.</p><div class="service-bottom"><span class="price">от 25 000 ₽</span><a class="text-link" href="#contacts" data-service="Защитная плёнка">Записаться ↗</a></div></div></article>
+      <article class="service"><div class="service-img" style="background-image:url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80')"><span class="service-num">06 / CARE</span></div><div class="service-body"><h3>Комплексный уход</h3><p>Индивидуальное сочетание внешнего и внутреннего детейлинга для полного обновления.</p><div class="service-bottom"><span class="price">от 15 000 ₽</span><a class="text-link" href="#contacts" data-service="Комплексный уход">Записаться ↗</a></div></div></article>
+    </div>
+  </div></section>
+
+  <section class="section about" id="about"><div class="container about-grid">
+    <div class="about-photo"><div class="photo-note"><strong>01:01</strong><span>Время, которое мы уделяем каждой детали</span></div></div>
+    <div class="about-copy"><span class="eyebrow">Философия NOIR</span><h2>Не просто чистый автомобиль. Совершенный результат.</h2><p>Мы верим, что качественный детейлинг начинается с правильного подхода. Сначала оцениваем состояние автомобиля, согласовываем план работ и только потом приступаем к уходу.</p>
+      <div class="check-list"><div class="check"><b>✓</b> Бережные технологии</div><div class="check"><b>✓</b> Честная оценка работ</div><div class="check"><b>✓</b> Фотоотчёт по запросу</div><div class="check"><b>✓</b> Гарантия на работы</div></div>
+      <a class="btn btn-primary" href="#contacts">Обсудить ваш автомобиль <span class="arrow">↗</span></a>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <div class="section-head"><div><span class="eyebrow">Простой процесс</span><h2>От заявки<br>до результата.</h2></div><p>Всё прозрачно: вы знаете, что будет сделано, сколько это займёт и сколько будет стоить.</p></div>
+    <div class="process-grid">
+      <div class="step"><span class="step-num">ШАГ 01</span><h3>Оставляете заявку</h3><p>Выбираете услугу и удобный способ связи.</p></div>
+      <div class="step"><span class="step-num">ШАГ 02</span><h3>Оцениваем авто</h3><p>Уточняем состояние, объём работ и итоговую цену.</p></div>
+      <div class="step"><span class="step-num">ШАГ 03</span><h3>Выполняем работу</h3><p>Соблюдаем технологию и согласованные сроки.</p></div>
+      <div class="step"><span class="step-num">ШАГ 04</span><h3>Вы принимаете авто</h3><p>Проверяете результат и получаете рекомендации.</p></div>
+    </div>
+  </div></section>
+
+  <section class="section" id="prices"><div class="container">
+    <div class="section-head"><div><span class="eyebrow">Предварительная стоимость</span><h2>Рассчитайте<br>свой уход.</h2></div><p>Выберите тип автомобиля и услугу — калькулятор покажет ориентировочную стоимость. Точная цена зависит от состояния авто.</p></div>
+    <div class="calculator">
+      <div class="calc-fields">
+        <div class="field"><label for="carType">Тип автомобиля</label><select id="carType"><option value="1">Седан / хэтчбек</option><option value="1.2">Кроссовер</option><option value="1.4">Внедорожник / минивэн</option></select></div>
+        <div class="field"><label for="serviceType">Услуга</label><select id="serviceType"><option value="2500">Детейлинг-мойка</option><option value="12000">Полировка кузова</option><option value="18000">Керамическое покрытие</option><option value="7000">Химчистка салона</option><option value="25000">Защитная плёнка</option><option value="15000">Комплексный уход</option></select></div>
+        <div class="field"><label for="condition">Состояние автомобиля</label><select id="condition"><option value="1">Хорошее</option><option value="1.15">Среднее</option><option value="1.3">Требует глубокой очистки</option></select></div>
+        <div class="field"><label for="extra">Дополнительно</label><select id="extra"><option value="0">Без дополнений</option><option value="1500">Уход за кожей (+1 500 ₽)</option><option value="2000">Очистка дисков (+2 000 ₽)</option><option value="3000">Антидождь (+3 000 ₽)</option></select></div>
+      </div>
+      <div class="calc-result"><div><small>Ориентировочная стоимость</small><div class="calc-total" id="calcTotal">2 500 ₽</div><p>Предварительный расчёт. Итоговую стоимость мастер подтвердит после осмотра автомобиля.</p></div><button class="btn btn-primary" id="calcBook">Записаться с этим расчётом ↗</button></div>
+    </div>
+  </div></section>
+
+  <section class="section" id="works"><div class="container">
+    <div class="section-head"><div><span class="eyebrow">Наш подход в деталях</span><h2>Работа говорит<br>за нас.</h2></div><p>Несколько визуальных примеров детейлинга. Замените эти изображения на реальные фотографии ваших работ.</p></div>
+    <div class="gallery-grid">
+      <div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1600705722908-bab3b3a3f3f6?auto=format&fit=crop&w=1200&q=85')"><span class="gallery-label">Глубокий блеск кузова</span></div>
+      <div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1613214150384-3b1d3d4a6e7b?auto=format&fit=crop&w=900&q=85')"><span class="gallery-label">Детейлинг салона</span></div>
+      <div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=85')"><span class="gallery-label">Защита кузова</span></div>
+      <div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=85')"><span class="gallery-label">Премиальный уход</span></div>
+      <div class="gallery-item" style="background-image:url('https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=900&q=85')"><span class="gallery-label">Финишная обработка</span></div>
+    </div>
+  </div></section>
+
+  <section class="section reviews" id="reviews"><div class="container">
+    <div class="section-head"><div><span class="eyebrow">Отзывы клиентов</span><h2>Доверие в каждой детали.</h2></div><p>Здесь разместите реальные отзывы клиентов с разрешения авторов. Примеры ниже — демонстрационный текст.</p></div>
+    <div class="review-grid">
+      <article class="review"><div class="stars">★★★★★</div><p>«После полировки автомобиль выглядит совершенно иначе. Всё объяснили до начала работ, результатом и отношением доволен».</p><div class="reviewer"><div class="avatar">АК</div><div><strong>Александр К.</strong><span>Полировка кузова · пример отзыва</span></div></div></article>
+      <article class="review"><div class="stars">★★★★★</div><p>«Салон стал заметно свежее, убрали сложные загрязнения. Понравилось внимание к мелочам и аккуратность».</p><div class="reviewer"><div class="avatar">МР</div><div><strong>Мария Р.</strong><span>Химчистка · пример отзыва</span></div></div></article>
+      <article class="review"><div class="stars">★★★★★</div><p>«Записался заранее, приняли вовремя. Показали этапы работы и дали рекомендации по дальнейшему уходу».</p><div class="reviewer"><div class="avatar">ДВ</div><div><strong>Дмитрий В.</strong><span>Комплексный уход · пример отзыва</span></div></div></article>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="container faq-grid">
+    <div><span class="eyebrow">FAQ</span><h2>Частые вопросы.</h2><p class="muted">Не нашли ответ? Напишите нам — поможем подобрать услугу.</p><a class="text-link" data-whatsapp href="#">Задать вопрос в WhatsApp ↗</a></div>
+    <div>
+      <div class="faq-item open"><button class="faq-q"><span>Сколько времени занимает детейлинг?</span><span>−</span></button><div class="faq-a">Время зависит от услуги и состояния автомобиля. Мойка занимает несколько часов, комплексная полировка или защита могут потребовать один или несколько дней. Точный срок согласуем заранее.</div></div>
+      <div class="faq-item"><button class="faq-q"><span>Нужно ли записываться заранее?</span><span>+</span></button><div class="faq-a">Да, рекомендуем записываться заранее. Так мы сможем выделить достаточно времени и подготовить рабочее место.</div></div>
+      <div class="faq-item"><button class="faq-q"><span>Можно ли узнать точную цену онлайн?</span><span>+</span></button><div class="faq-a">Калькулятор показывает ориентир. Точная цена зависит от размера автомобиля, состояния покрытия и объёма работ.</div></div>
+      <div class="faq-item"><button class="faq-q"><span>Какие средства вы используете?</span><span>+</span></button><div class="faq-a">Используйте этот блок, чтобы указать реальные бренды и материалы вашей студии. Не публикуйте неподтверждённые заявления о продуктах.</div></div>
+      <div class="faq-item"><button class="faq-q"><span>Как подготовить автомобиль к визиту?</span><span>+</span></button><div class="faq-a">Достаточно убрать личные вещи из салона и сообщить мастеру об особенностях автомобиля или известных повреждениях.</div></div>
+    </div>
+  </div></section>
+
+  <section class="section contact" id="contacts"><div class="container contact-grid">
+    <div><span class="eyebrow">Свяжитесь с нами</span><h2>Ваш автомобиль<br>заслуживает<br>большего.</h2><p class="contact-copy">Оставьте заявку — мы уточним детали, подберём подходящую услугу и согласуем удобное время.</p><div class="contact-info"><span>☎ <a data-phone href="tel:+70000000000">+7 (000) 000-00-00</a></span><span>⌖ Ваш город, адрес студии</span><span>◷ Ежедневно · 09:00–21:00</span></div></div>
+    <form class="contact-form" id="leadForm"><h3>Записаться на детейлинг</h3><p>Заполните форму — заявка откроется в WhatsApp.</p>
+      <div class="field"><label for="name">Ваше имя</label><input id="name" name="name" placeholder="Как к вам обращаться" required maxlength="60"></div>
+      <div class="field"><label for="phone">Телефон</label><input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required maxlength="25"></div>
+      <div class="field"><label for="leadService">Какая услуга интересует?</label><select id="leadService" name="service"><option>Пока не определился</option><option>Детейлинг-мойка</option><option>Полировка кузова</option><option>Керамическое покрытие</option><option>Химчистка салона</option><option>Защитная плёнка</option><option>Комплексный уход</option></select></div>
+      <button class="btn btn-primary" type="submit">Отправить заявку <span class="arrow">↗</span></button><div class="form-note">Нажимая кнопку, вы соглашаетесь на обработку данных для связи по заявке.</div>
+    </form>
+  </div></section>
+</main>
+<footer><div class="container footer-row"><a class="brand" href="#top"><span class="brand-mark">N</span><span>NOIR <small>DETAILING STUDIO</small></span></a><span class="footer-copy">© <span id="year"></span> NOIR DETAILING. Все права защищены.</span><div class="footer-links"><a href="#services">Услуги</a><a href="#contacts">Контакты</a><a href="#" data-whatsapp>WhatsApp ↗</a></div></div></footer>
+<div class="mobile-cta"><a class="btn btn-primary" href="#contacts">Записаться на детейлинг ↗</a></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+  // НАСТРОЙКИ: замените номер на номер студии в международном формате без +, пробелов и скобок.
+  const CONFIG = {
+    phoneDisplay: '+7 (000) 000-00-00',
+    phoneTel: '+70000000000',
+    whatsapp: '70000000000'
+  };
+  document.querySelectorAll('[data-phone]').forEach(a=>{a.textContent=CONFIG.phoneDisplay;a.href='tel:'+CONFIG.phoneTel});
+  document.querySelectorAll('[data-whatsapp]').forEach(a=>a.href='https://wa.me/'+CONFIG.whatsapp+'?text='+encodeURIComponent('Здравствуйте! Хочу узнать подробнее об услугах детейлинга.'));
+  document.getElementById('year').textContent=new Date().getFullYear();
+
+  const menuBtn=document.getElementById('menuBtn'), navLinks=document.getElementById('navLinks');
+  menuBtn.addEventListener('click',()=>{navLinks.classList.toggle('active');menuBtn.textContent=navLinks.classList.contains('active')?'×':'☰'});
+  navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('active');menuBtn.textContent='☰'}));
+
+  const carType=document.getElementById('carType'),serviceType=document.getElementById('serviceType'),condition=document.getElementById('condition'),extra=document.getElementById('extra'),calcTotal=document.getElementById('calcTotal');
+  function calculate(){const total=Math.round((Number(serviceType.value)*Number(carType.value)*Number(condition.value)+Number(extra.value))/100)*100;calcTotal.textContent=total.toLocaleString('ru-RU')+' ₽';return total}
+  [carType,serviceType,condition,extra].forEach(el=>el.addEventListener('change',calculate));
+  document.getElementById('calcBook').addEventListener('click',()=>{document.getElementById('leadService').value=serviceType.options[serviceType.selectedIndex].text;document.getElementById('contacts').scrollIntoView({behavior:'smooth'});showToast('Заполните контакты — расчёт добавится в заявку')});
+
+  document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('leadService').value=a.dataset.service}));
+  document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{const item=btn.parentElement;item.classList.toggle('open');btn.lastElementChild.textContent=item.classList.contains('open')?'−':'+'}));
+
+  function showToast(message){const toast=document.getElementById('toast');toast.textContent=message;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2800)}
+  document.getElementById('leadForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const name=document.getElementById('name').value.trim(),phone=document.getElementById('phone').value.trim(),service=document.getElementById('leadService').value;
+    if(!name||!phone){showToast('Заполните имя и телефон');return}
+    const message=`Здравствуйте! Хочу записаться на детейлинг.%0AИмя: ${encodeURIComponent(name)}%0AТелефон: ${encodeURIComponent(phone)}%0AУслуга: ${encodeURIComponent(service)}%0AОриентир по калькулятору: ${encodeURIComponent(calcTotal.textContent)}`;
+    const url='https://wa.me/'+CONFIG.whatsapp+'?text='+message;
+    if(CONFIG.whatsapp==='70000000000'){showToast('Сначала укажите реальный номер WhatsApp в настройках сайта');return}
+    window.open(url,'_blank','noopener');
+  });
+  calculate();
+</script>
+</body>
+</html>
